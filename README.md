@@ -52,7 +52,7 @@ server {
     }
 }
 ```
-Depois da configuração precisa dar restart
+*Depois da configuração precisa dar restart*
 
 ## Copiar o projeto para dentro do container
 
@@ -62,4 +62,4 @@ Depois da configuração precisa dar restart
 
 Entrar na pasta que foi copiada, e rodar:
 
-`node app.js`# app-express-docker
+`node app.js`
