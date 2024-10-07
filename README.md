@@ -60,9 +60,12 @@ server {
 ```
 *Depois da configuração precisa dar restart*
 
-## Copiar o projeto para dentro do container ou dar um clone
+### Copiar o projeto para dentro do container
 
 `docker cp /path-projeto/ <container_name_or_id>:/path-dentro-do-container`
+
+### Para clonar precisa instalar o git
+`apt-get install git-all`
 
 `git clone <repositorio>` 
 
