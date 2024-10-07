@@ -60,9 +60,14 @@ server {
 ```
 *Depois da configuração precisa dar restart*
 
-## Copiar o projeto para dentro do container
+## Copiar o projeto para dentro do container ou dar um clone
 
 `docker cp /path-projeto/ <container_name_or_id>:/path-dentro-do-container`
+
+`git clone <repositorio>` 
+
+## Instalar dependência
+`npm install`
 
 ### Dar start no app
 
