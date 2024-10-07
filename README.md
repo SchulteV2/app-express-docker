@@ -2,7 +2,13 @@ Comandos para rodar o docker
 
 # Vai rodar o docker na porta 80
 
-`docker run -it -p 80:80 ubuntu`
+`docker run -it -d -p 80:80 ubuntu`
+
+## Verificar se o container está rodando
+`docker ps`
+
+## Acessar o docker no terminal
+`docker exec -it <id_container> /bin/bash`
 
 ## Instalar o Node
 
